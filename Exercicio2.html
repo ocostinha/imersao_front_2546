@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 2</title>
+    <script type="application/javascript" src="Exercicio2.js"></script>
+</head>
+<body>
+    <form id="formulario">
+        <label for="texto_padrao">Insira o texto padrão</label>
+        <input type="text" id="texto_padrao">
+        <br><br>
+        <label for="adicionar_texto">Adicionar texto</label>
+        <input type="text" id="adicionar_texto">
+        <br><br>
+        <label for="remover_texto">Remover texto</label>
+        <input type="text" id="remover_texto">
+        <br><br>
+        <button type="button" onclick="inserirTextoPadrao()">Inserir texto padrão</button>
+        <button type="button" onclick="adicionarTexto()" id="adicionarTextoButton">Adicionar texto</button>
+        <button type="button" onclick="removerTexto()">Remover texto</button>
+        <br><br>
+        <p id="resultado"></p>
+    </form>
+</body>
+</html>

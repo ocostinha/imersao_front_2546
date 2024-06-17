@@ -1,0 +1,16 @@
+Criar um formulario
+    inserir texto
+    retirar texto
+    texto padrao
+
+    Botão 1 - inserir texto padrão
+
+    inserir o texto do input texto padrao no elemento p da pagina
+
+    Botão 2 - inserir texto
+
+    adicionar o texto do input inserir texto no elemento p da pagina
+
+    Botão 3 - retirar texto
+
+    remover parte do texto do elemento p indicado no input retirar texto
